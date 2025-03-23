@@ -10,17 +10,17 @@ set c 4
 set d 2
 set x 12
 if (x > a)
-  log string x >> " больше всех"
+  log string "x больше всех"
 close
 if (a > x)
-  log string x >> " между a и b"
+  log string "a>x>b"
 close
 if (b > x)
-  log string x >> " между b и с"
+  log string "b>x>c"
 close 
 if (c > x)
-  log string x >> " между с и d"
+  log string "c>x>d"
 close
 if (d > x)
-  log string x >> " меньше вceх"
+  log string "x меньше вceх"
 finish
